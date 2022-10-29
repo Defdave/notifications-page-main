@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="assets/fonts/PlusJakartaSans-VariableFont_wght.ttf">
+  <link rel="stylesheet" href="assets/fonts/static/PlusJakartaSans-Medium.ttf">
+  <link rel="stylesheet" href="assets/fonts/static/PlusJakartaSans-ExtraBold.ttf">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <header id="header">
+    <div class="container">
+      <div class="notice-head">
+        <h2 class="Notice-h2">Notifications <span class="no-unread">3</span></h2>
+        <button class="mark-all-btn">Mark all as read</button>
+      </div>
+    </div>
+  </header>
+  
+  <section id="notice-section">
+    <div class="container">
+      <ul class="list-notice">
+        <li class="notice-block">
+          <div class="notice-header unread">
+            <img class="header-img" src="assets/images/avatar-mark-webber.webp" alt="">
+            <div class="header-text">
+              <p class="text"><span class="d-blue">Mark Webber</span> reacted to your recent post <span class="post-name"> My first tournament today!</span></p>
+              <span class="notice-date">1m ago</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="notice-block">
+          <div class="notice-header unread">
+            <img class="header-img" src="assets/images/avatar-angela-gray.webp" alt="">
+            <div class="header-text">
+              <p class="text"><span class="d-blue">Angela Gray</span> followed you</p>
+              <span class="notice-date">5m ago</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="notice-block">
+          <div class="notice-header unread">
+            <img class="header-img" src="assets/images/avatar-jacob-thompson.webp" alt="">
+            <div class="header-text">
+              <p class="text"><span class="d-blue">Jacob Thompson</span> has joined your group <span class="group-name">Chess Club</span></p>
+              <span class="notice-date">1 day ago</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="notice-block">
+          <div class="notice-header message">
+            <img class="header-img" src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+            <div class="header-text">
+              <p class="text"><span class="d-blue">Rizky Hasanuddin</span> sent you a private message</p>
+              <span class="notice-date">5 days ago</span>
+              <div class="notice-message">
+                <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="notice-block">
+          <div class="notice-header">
+            <img class="header-img" src="assets/images/avatar-kimberly-smith.webp" alt="">
+            <div class="header-text">
+              <p class="text"><span class="d-blue">Kimberly Smith</span> commented on your picture</p>
+              <span class="notice-date">1 week ago</span>
+            </div>
+            <img class="post-pic" id="chess-img" src="assets/images/image-chess.webp" alt="">
+          </div>
+        </li>
+
+        <li class="notice-block">
+          <div class="notice-header">
+            <img class="header-img" src="assets/images/avatar-nathan-peterson.webp" alt="">
+            <div class="header-text">
+              <p class="text"><span class="d-blue">Nathan Peterson</span> reacted to your recent post <span class="post-name">5 end-game strategies to increase your win rate</span></p>
+              <span class="notice-date">2 weeks ago</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="notice-block">
+          <div class="notice-header">
+            <img class="header-img" src="assets/images/avatar-anna-kim.webp" alt="">
+            <div class="header-text">
+              <p class="text"><span class="d-blue">Anna Kim</span> left the group <span class="group-name">Chess Club</span></p>
+              <span class="notice-date">2 weeks ago</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="test"></div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ige David</a>.
+  </div>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
